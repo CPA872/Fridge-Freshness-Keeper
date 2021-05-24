@@ -1,38 +1,13 @@
-## Fridge-Freshness-Keeper: Your Smart Fridge Food Tracker
+# Fridge-Freshness-Keeper
 
-### Project for Georgia Tech CDAIT IoT Challenge
-You can use the [editor on GitHub](https://github.com/CPA872/Fridge-Freshness-Keeper/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Georgia Tech CDAIT IoT Challenge Project: Fridge-Freshness-Keeper - a Smart Fridge Tracking System
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## TLDR
+Fridge-Freshness-Keeper is a fridge managing and food tracking system. It consists of a Raspberry Pi mounted on the fridge, a mobile app installed on an Android device. Users will be able to add, remove, and manage their foods stored in the fridge through Amazon Alexa, Raspberry Pi touchscreen, and the Android app. 
 
-### Markdown
+## Motivation
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+As we have a tremendous amount of food being wasted on a daily basis, it is integral for us to stay vigilant and attentive to food’s shelf life in case they are discarded for food spoilage. To tackle the problem of food wastage and let people optimize their food utilization, we propose the Fridge-Freshness-Keeper: a smart IoT system that can track the shelf-life of foods stored in the fridge and alert users about expiring items. The prototype of our product is designed as an external device attached to the fridge door. In addition, a mobile app installed on users’ smartphones operates as a secondary platform for notifying users about expiration dates and food lookup. The two components share a database storing information about foods in the fridge. In addition, users can utilize an Alexa Skill to add new food items into the system. 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CPA872/Fridge-Freshness-Keeper/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+We believe our IoT system can make a large impact since a significant portion of food spoilage is because people are unaware of how much food they have bought from the market and their shelf life. Our IoT system will be valuable to many user groups beyond home fridge owners. Restaurant and other business managers may find it helpful to keep their refrigerated items from expiring and optimize their procurement planning. Underserved populations such as elderly people with developing dementia can benefit from this by sharing the fridge data with caregivers or other family members to ensure healthy food consumption.
