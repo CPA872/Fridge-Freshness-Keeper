@@ -25,4 +25,4 @@ In particular, Fridge-Freshness-Keeper attempts to solve the following two diffi
 - It is easy to forget what is put into the fridge. Furthermore, items in the fridge are often stacked, making identifying all items at a glance challenging. Our system helps users to remember such trivial things. By either voice-inputting or typing on the screen after each purchase, users can easily keep track of foods inside their refrigerator. 
 
 ## Overview of Solution
-![solution overview]("gh_rsc/sol.png")
+![solution overview](gh_rsc/sol.png)
