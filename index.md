@@ -34,6 +34,11 @@ On the input side, there are two ways for adding purchased items into the system
 
 On the output side, the Raspberry Pi mounted on the refrigerator shows a list of food inside the fridge, as well as their quantities and shelf lives. Moreover, it monitors the humidity and temperature inside the fridge. The Android App connected to DynamoDB using AWS AppSync and AWS Amplify displays the food information pulled from the cloud. The Android App can also push notifications to users alerting approaching food expiration dates. 
 
+## Methodology and Implementation
+** Raspberry Pi GUI **
+
+
+
 ## Next Steps
 - The GUI interfaces can be designed better. We lack necessary skills on UI design principles and methods. Therefore, the designed Raspberry Pi GUI and Android App only meet the functional goal. A better looking UI will greatly enhance the user experience. 
 - The Refrigeration Gas Sensor (model ZMOD4450) can be integrated into our IoT. During the prototyping process, we find it very challenging to work with the sensor because there are very few references online since the sensor is a proprietary product. With the addition of the sensor, once gas released by spoiled food is detected from the fridge, alerts can be sent to users asking for attention.
