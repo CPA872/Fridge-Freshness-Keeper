@@ -27,6 +27,8 @@ In particular, Fridge-Freshness-Keeper attempts to solve the following two diffi
 ## Overview of Solution
 ![solution overview](https://github.com/CPA872/Fridge-Freshness-Keeper/blob/main/gh_rsc/sol.png)
 
+As shown above, three phases are implemented to solve the problem of fridge food waste. On the input side, there are two ways for adding purchased items into the system. The Alexa Skill + voice recognition allows users simultaneously put items into the fridge and log items to our system. The typed input via Raspberry Pi touchscreen allows users to log food items using the on-screen keyboard. After input items are logged, they are combined using Boto3 into a shared DynamoDB database. 
+
 On the input side, there are two ways for adding purchased items into the system. The Alexa Skill + voice recognition allows users simultaneously put items into the fridge and log items to our system. The typed input via Raspberry Pi touchscreen allows users to log food items using the on-screen keyboard. After input items are logged, they are combined using Boto3 into a shared DynamoDB database. 
 
 On the output side, the Raspberry Pi mounted on the refrigerator shows a list of food inside the fridge, as well as their quantities and shelf lives. Moreover, it monitors the humidity and temperature inside the fridge. The Android App connected to DynamoDB using AWS AppSync and AWS Amplify displays the food information pulled from the cloud. The Android App can also push notifications to users alerting approaching food expiration dates. 
