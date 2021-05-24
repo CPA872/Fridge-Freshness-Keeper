@@ -1,0 +1,6 @@
+dominos, 4, 2
+green pepper, 7, 5
+eggplant, 5, 10
+red pepper, 8, 10
+pizza, 4, 2
+apples, 6, 15

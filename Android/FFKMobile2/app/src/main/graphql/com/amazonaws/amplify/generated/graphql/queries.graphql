@@ -1,0 +1,24 @@
+# this is an auto generated file. This will be overwritten
+query GetFfkSync($time_added: String!) {
+  getFfkSync(time_added: $time_added) {
+    time_added
+    food_item
+    food_quantities
+    shelf_life
+  }
+}
+query ListFfkSyncs(
+  $filter: TableFfkSyncFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listFfkSyncs(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      time_added
+      food_item
+      food_quantities
+      shelf_life
+    }
+    nextToken
+  }
+}

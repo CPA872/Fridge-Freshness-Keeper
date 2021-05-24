@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ffkmobile2-dev-192547-authRole",
+      "UnauthRoleArn": "arn:aws:iam::890394727923:role/amplify-ffkmobile2-dev-192547-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::890394727923:role/amplify-ffkmobile2-dev-192547-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ffkmobile2-dev-192547-deployment",
+      "UnauthRoleName": "amplify-ffkmobile2-dev-192547-unauthRole",
+      "StackName": "amplify-ffkmobile2-dev-192547",
+      "StackId": "arn:aws:cloudformation:us-east-1:890394727923:stack/amplify-ffkmobile2-dev-192547/0dacf9a0-b69e-11eb-bd2c-0a71dc7a3521",
+      "AmplifyAppId": "d1alpvz6mvfnwj"
+    }
+  }
+}

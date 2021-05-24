@@ -1,0 +1,55 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateFfkSync(
+  $time_added: String
+  $food_item: String
+  $food_quantities: String
+  $shelf_life: String
+) {
+  onCreateFfkSync(
+    time_added: $time_added
+    food_item: $food_item
+    food_quantities: $food_quantities
+    shelf_life: $shelf_life
+  ) {
+    time_added
+    food_item
+    food_quantities
+    shelf_life
+  }
+}
+subscription OnUpdateFfkSync(
+  $time_added: String
+  $food_item: String
+  $food_quantities: String
+  $shelf_life: String
+) {
+  onUpdateFfkSync(
+    time_added: $time_added
+    food_item: $food_item
+    food_quantities: $food_quantities
+    shelf_life: $shelf_life
+  ) {
+    time_added
+    food_item
+    food_quantities
+    shelf_life
+  }
+}
+subscription OnDeleteFfkSync(
+  $time_added: String
+  $food_item: String
+  $food_quantities: String
+  $shelf_life: String
+) {
+  onDeleteFfkSync(
+    time_added: $time_added
+    food_item: $food_item
+    food_quantities: $food_quantities
+    shelf_life: $shelf_life
+  ) {
+    time_added
+    food_item
+    food_quantities
+    shelf_life
+  }
+}

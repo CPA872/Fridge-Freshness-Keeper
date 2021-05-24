@@ -1,0 +1,25 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateFfkSync($input: CreateFfkSyncInput!) {
+  createFfkSync(input: $input) {
+    time_added
+    food_item
+    food_quantities
+    shelf_life
+  }
+}
+mutation UpdateFfkSync($input: UpdateFfkSyncInput!) {
+  updateFfkSync(input: $input) {
+    time_added
+    food_item
+    food_quantities
+    shelf_life
+  }
+}
+mutation DeleteFfkSync($input: DeleteFfkSyncInput!) {
+  deleteFfkSync(input: $input) {
+    time_added
+    food_item
+    food_quantities
+    shelf_life
+  }
+}
