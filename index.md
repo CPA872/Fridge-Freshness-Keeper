@@ -1,8 +1,8 @@
 <!-- # Fridge-Freshness-Keeper -->
 
-Georgia Tech CDAIT IoT Challenge Project: Fridge-Freshness-Keeper - a Smart Fridge Tracking System
+**Georgia Tech CDAIT IoT Challenge Project: Fridge-Freshness-Keeper - a Smart Fridge Tracking System**
 
-Design Team:
+*Design Team:*
 
 - Zechuan Ding, School of ECE, zding72@gatech.edu
 - Yue Pan, School of ECE, ypan331@gatech.edu
