@@ -2,14 +2,17 @@
 
 **Georgia Tech CDAIT IoT Challenge Project: Fridge-Freshness-Keeper - a Smart Fridge Tracking System**
 
-*Design Team:*
+Design Team:
 
 - Zechuan Ding, School of ECE, zding72@gatech.edu
 - Yue Pan, School of ECE, ypan331@gatech.edu
 - Yihua, Xu, School of Math and School of History and Sociology, yxu604@gatech.edu
 
+**Links**
+[Demo Video]()
+
 ## TLDR
-Fridge-Freshness-Keeper is a fridge managing and food tracking system. It consists of a Raspberry Pi mounted on the fridge, a mobile app installed on an Android device, and an Alesa Skill. Users will be able to add, remove, and manage their foods stored in the fridge through the three aspects previously mentioned. 
+Fridge-Freshness-Keeper is a fridge managing and food tracking system. It consists of a Raspberry Pi mounted on the fridge, a mobile app installed on an Android device, and an Alexa Skill. Users will be able to look up and manage their fridge conten through the three aspects. 
 
 ## Motivation
 
