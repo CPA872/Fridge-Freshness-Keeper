@@ -50,16 +50,11 @@ After clicking the NEW ITEM button, the “Add a new item” window is shown in 
 
 ### Alexa Skill
 <img src="gh_rsc/alexa.png" alt="rpi main window" class="inline"/>
+Powered by Alexa Skills, the voice-controlled user input is enabled by a set of three conversations. Firstly, the user invokes the Alexa Skill by saying “open fridge freshness keeper” and is prompted by Alexa's greeting: “Welcome to fridge tracker. What would you like to add to the fridge?” The user then replies with a food name. Then, Alexa obtains the food name and prompts the following: “I have successfully saved [food]. How many are there?” With the user voicing a specific number, Alexa then logs the specific quantity for [food] and asks the following question: “Your food's quantity is [number], what is the expiration date?” The user can reply flexibly in one of the following forms: “[number] days”; specific dates in the form - “[year][month][day]”; “this/next [day of the week]”; “tomorrow”, etc. Finally, Alexa automatically calculates the shelf life based on the information provided and asks whether the user would like to add anything else to the fridge. 
 
 ### Android App
 
-<img src="gh_rsc/android main.jpg" alt="rpi main window" class="inline"/>
-
-<img src="gh_rsc/android main with menu.jpg" alt="rpi main window" class="inline"/>
-
-<img src="gh_rsc/android sory by Shelf life.jpg" alt="rpi main window" class="inline"/>
-
-
+<img src="gh_rsc/android all.jpg" alt="rpi main window" class="inline"/>
 
 ## Next Steps
 - The GUI interfaces can be designed better. We lack necessary skills on UI design principles and methods. Therefore, the designed Raspberry Pi GUI and Android App only meet the functional goal. A better looking UI will greatly enhance the user experience. 
