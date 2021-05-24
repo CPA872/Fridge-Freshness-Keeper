@@ -10,7 +10,7 @@
 **Links**
 - [Demo Video](https://youtu.be/w1Gjtki0x8E)
 - [Project Report](https://docs.google.com/document/d/1jFisFSvs9kEznSA4-92oM_S1GHq3HtN5IAoPb1JMBIw/edit?usp=sharing)
-- [Github Repository](https://github.com/CPA872/Fridge-Freshness-Keeper)
+- [Github Repository](https://github.com/CPA872/Fridge-Freshness-Keeper)  (Refer here for reproducing our project)
 
 ## TLDR
 
