@@ -9,9 +9,13 @@
 - Yihua, Xu, School of Math and School of History and Sociology, yxu604@gatech.edu
 
 **Links**
-[Demo Video]()
+
+- [Demo Video](https://youtu.be/w1Gjtki0x8E)
+- [Project Report](https://docs.google.com/document/d/1jFisFSvs9kEznSA4-92oM_S1GHq3HtN5IAoPb1JMBIw/edit?usp=sharing)
+- [Github Repository](https://github.com/CPA872/Fridge-Freshness-Keeper)
 
 ## TLDR
+
 Fridge-Freshness-Keeper is a fridge managing and food tracking system. It consists of a Raspberry Pi mounted on the fridge, a mobile app installed on an Android device, and an Alexa Skill. Users will be able to look up and manage their fridge conten through the three aspects. 
 
 ## Motivation
