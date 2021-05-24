@@ -50,6 +50,11 @@ The GUI design is straightforward. The food list is displayed using a QTableWidg
 After clicking the NEW ITEM button, the “Add a new item” window is shown in the above figure. Users can enter the name of the food using the on-screen keyboard, and update the count and shelf life fields using the plus/minus buttons. After pressing the CONFIRM button, the new food is added to the table and the cloud database is updated. 
 
 **Alexa Skill**
+
+<img src="gh_rsc/alexa.png" alt="rpi main window" class="inline"/>
+
+**Android App**
+
 <img src="gh_rsc/android main.jpg" alt="rpi main window" class="inline"/>
 
 <img src="gh_rsc/android main with menu.jpg" alt="rpi main window" class="inline"/>
@@ -57,7 +62,6 @@ After clicking the NEW ITEM button, the “Add a new item” window is shown in 
 <img src="gh_rsc/android sory by Shelf life.jpg" alt="rpi main window" class="inline"/>
 
 
-**Android App**
 
 ## Next Steps
 - The GUI interfaces can be designed better. We lack necessary skills on UI design principles and methods. Therefore, the designed Raspberry Pi GUI and Android App only meet the functional goal. A better looking UI will greatly enhance the user experience. 
