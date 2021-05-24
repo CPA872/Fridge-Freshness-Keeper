@@ -25,8 +25,8 @@ In particular, Fridge-Freshness-Keeper attempts to solve the following two diffi
 - It is easy to forget what is put into the fridge. Furthermore, items in the fridge are often stacked, making identifying all items at a glance challenging. Our system helps users to remember such trivial things. By either voice-inputting or typing on the screen after each purchase, users can easily keep track of foods inside their refrigerator. 
 
 ## Overview of Solution
-<img src="images/Emoticons/cool.png" alt="solution overview" class="inline"/>
-![solution overview](https://github.com/CPA872/Fridge-Freshness-Keeper/blob/main/gh_rsc/sol.png)
+<img src="gh_rsc/sol.png" alt="solution overview" class="inline"/>
+<!-- ![solution overview](https://github.com/CPA872/Fridge-Freshness-Keeper/blob/main/gh_rsc/sol.png) -->
 
 As shown above, three phases are implemented to solve the problem of fridge food waste. On the input side, there are two ways for adding purchased items into the system. The Alexa Skill + voice recognition allows users simultaneously put items into the fridge and log items to our system. The typed input via Raspberry Pi touchscreen allows users to log food items using the on-screen keyboard. After input items are logged, they are combined using Boto3 into a shared DynamoDB database. 
 
